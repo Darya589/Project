@@ -5,5 +5,10 @@ def tekst(n):
 
 
 
+a = tekst("Hello World")
+print(a)
 
-print(tekst("Hello World"))
+def uniq(a):
+    return list(set(a))
+
+print(uniq(a))

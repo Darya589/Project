@@ -67,3 +67,4 @@ print(f"Самый маленький регион по площади: {min_are
 
 top5 = df.nlargest(5, "gdp") [["region", "gdp"]]
 print(top5)
+

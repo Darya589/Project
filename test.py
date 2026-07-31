@@ -1,7 +1,5 @@
-test = {"Name": ["Anna", "Darya", "Boris", "Yana"], "id": [1, 2, 6, 0]}
-import pandas as pd
-df = pd.DataFrame(test)
-#print(df)
+def summa(a,b):
+    return a + b
 
-
-print(df.nsmallest(3, "id"))
+def r(a,b):
+    return round((a / b), 2)
